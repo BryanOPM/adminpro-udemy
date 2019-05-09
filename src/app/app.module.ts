@@ -8,7 +8,7 @@ import { APP_ROUTES } from './app.routes';
 // Modulos
 import { PageModule } from './pages/pages.module';
 
-
+// Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
@@ -18,14 +18,6 @@ import { RegisterComponent } from './login/register.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    // DashbordComponent,
-    // ProgressComponent,
-    // Graficas1Component,
-    // PagesComponent,
-    // NopagefoundComponent,
-    // HeaderComponent,
-    // SidebarComponent,
-    // BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
