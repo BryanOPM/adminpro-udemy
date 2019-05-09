@@ -10,15 +10,15 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
 import { RegisterComponent } from './login/register.component';
 
 const appRoutes: Routes = [
-    {
-        path: '',
-        component: PagesComponent,
-        children: [
-            { path: 'dashboard', component: DashbordComponent },
-            { path: 'progress', component: ProgressComponent },
-            { path: 'graficas1', component: Graficas1Component },
-            { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-        ] },
+    // {
+    //     path: '',
+    //     component: PagesComponent,
+    //     children: [
+    //         { path: 'dashboard', component: DashbordComponent },
+    //         { path: 'progress', component: ProgressComponent },
+    //         { path: 'graficas1', component: Graficas1Component },
+    //         { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+    //     ] },
     { path: 'register', component: RegisterComponent },
     { path: 'login', component: LoginComponent },
     { path: '**', component: NopagefoundComponent }
